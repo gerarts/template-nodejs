@@ -1,5 +1,6 @@
-[![Build Status](https://travis-ci.com/gerarts/template-nodejs.svg?token=2x651JxqNnvnUo8ncPuR&branch=master)](https://travis-ci.com/gerarts/template-nodejs) [![Dependency Status](https://gemnasium.com/badges/github.com/gerarts/template-nodejs.svg)](https://gemnasium.com/github.com/gerarts/template-nodejs) [![Coverage Status](https://coveralls.io/repos/github/gerarts/template-nodejs/badge.svg?branch=master)](https://coveralls.io/github/gerarts/template-nodejs?branch=master) [![bitHound Overall Score](https://www.bithound.io/github/gerarts/template-nodejs/badges/score.svg)](https://www.bithound.io/github/gerarts/template-nodejs)
 # template-nodejs
+[![Build Status](https://travis-ci.com/gerarts/template-nodejs.svg?token=2x651JxqNnvnUo8ncPuR&branch=master)](https://travis-ci.com/gerarts/template-nodejs) [![Dependency Status](https://gemnasium.com/badges/github.com/gerarts/template-nodejs.svg)](https://gemnasium.com/github.com/gerarts/template-nodejs) [![bitHound Overall Score](https://www.bithound.io/github/gerarts/template-nodejs/badges/score.svg)](https://www.bithound.io/github/gerarts/template-nodejs)
+
 Template for Node.js express projects
 
 ## Table of contents
