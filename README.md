@@ -1,6 +1,11 @@
 # template-nodejs
 Personal template for Node.js projects
 
+### Usage
+Fork this repository on GitHub, enable the forked repository on Travis-CI
+and enable branch protection for the `master` branch. To update your fork
+add this repository as the `upstream` repository on your local machine.
+
 ### Environment
 - `express` as the environment
     - `body-parser` for `POST` requests
