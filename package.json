@@ -38,7 +38,7 @@
     "template"
   ],
   "author": "Paul Gerarts <paul@gerarts.nl>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gerarts/template-nodejs/issues"
   },
