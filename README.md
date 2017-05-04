@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/gerarts/template-nodejs.svg?token=2x651JxqNnvnUo8ncPuR&branch=master)](https://travis-ci.com/gerarts/template-nodejs)
 # template-nodejs
 Template for Node.js express projects
 
