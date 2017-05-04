@@ -1,0 +1,46 @@
+{
+  "name": "template-nodejs",
+  "version": "1.0.0",
+  "description": "A template for Node.js projects",
+  "main": "src/main/node/app.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "locale": "^0.1.0",
+    "mysql": "^2.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-google": "^0.7.1",
+    "eslint-plugin-jsdoc": "^3.0.2",
+    "eslint-plugin-node": "^4.2.2",
+    "express": "^4.15.2",
+    "istanbul": "^0.4.5",
+    "jsdoc": "^3.4.3",
+    "mocha": "^3.3.0",
+    "mocha-eslint": "^3.0.1"
+  },
+  "scripts": {
+    "start": "node ./src/main/node/app.js",
+    "test": "mocha './src/test/node' --recursive",
+    "coverage": "istanbul cover _mocha './src/test/node' -- -R spec",
+    "clean": "rm -rf coverage; rm -rf out",
+    "refresh": "rm -rf node_modules; npm install",
+    "jsdoc": "jsdoc src/main/node/ -r"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gerarts@github.com/gerarts/template-nodejs.git"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "Paul Gerarts <paul@gerarts.nl>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/gerarts/template-nodejs/issues"
+  },
+  "homepage": "https://github.com/gerarts/template-nodejs#readme"
+}

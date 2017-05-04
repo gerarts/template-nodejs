@@ -1,0 +1,20 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Application Title",
+    "description": "Application Description",
+    "version": "1.0.0"
+  },
+  "host": "127.0.0.1:3000",
+  "schemes": [
+    "http"
+  ],
+  "basePath": "/application/api",
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+  },
+  "definitions": {
+  }
+}
