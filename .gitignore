@@ -2,7 +2,7 @@
 node_modules/
 out/
 coverage/
-src/main/static/swagger-ui/
+public/swagger-ui/
 bundle.js
 
 #ignore thumbnails created by windows

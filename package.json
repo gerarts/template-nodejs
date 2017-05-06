@@ -2,7 +2,7 @@
   "name": "template-nodejs",
   "version": "1.0.0",
   "description": "A template for Node.js projects",
-  "main": "src/main/node/app.js",
+  "main": "src/index.js",
   "dependencies": {
     "body-parser": "^1.17.1",
     "cookie-parser": "^1.4.3",
@@ -24,12 +24,12 @@
     "mocha-eslint": "^3.0.1"
   },
   "scripts": {
-    "start": "node ./src/node/app.js",
-    "test": "mocha ./src/node -name *.test.js --recursive",
-    "coverage": "istanbul cover _mocha ./src/node -name *.test.js -- -R spec",
+    "start": "node ./src/index.js",
+    "test": "mocha ./src -name *.test.js --recursive",
+    "coverage": "istanbul cover _mocha ./src -name *.test.js -- -R spec",
     "clean": "rm -rf coverage; rm -rf out",
     "refresh": "rm -rf node_modules; npm install",
-    "jsdoc": "jsdoc src/node/ -r"
+    "jsdoc": "jsdoc src/ -r"
   },
   "repository": {
     "type": "git",

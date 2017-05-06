@@ -23,7 +23,7 @@ app.use(cookieParser());
 app.use(require('./middleware'));
 
 // Setup static content
-app.use('/', express.static(__dirname + '/../static'));
+app.use('/', express.static(__dirname + '/../public'));
 
 // Setup express routes
 app.use('/', require('./controller'));
