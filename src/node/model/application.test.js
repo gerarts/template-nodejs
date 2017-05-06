@@ -5,7 +5,7 @@ var assert = require('assert');
 var Application = require('./application');
 
 describe('Application', function() {
-  describe('info', function() {
+  describe('exports.info()', function() {
 
     it('should return the application name', function() {
       Application.info( function(result) {
