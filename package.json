@@ -26,7 +26,7 @@
   "scripts": {
     "start": "node ./src/node/app.js",
     "test": "mocha ./src/node -name *.test.js --recursive",
-    "coverage": "istanbul cover _mocha './src/test/node' -- -R spec",
+    "coverage": "istanbul cover _mocha ./src/node -name *.test.js -- -R spec",
     "clean": "rm -rf coverage; rm -rf out",
     "refresh": "rm -rf node_modules; npm install",
     "jsdoc": "jsdoc src/node/ -r"
