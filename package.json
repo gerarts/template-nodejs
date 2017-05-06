@@ -15,6 +15,7 @@
     "eslint": "^3.19.0",
     "eslint-config-google": "^0.7.1",
     "eslint-plugin-jsdoc": "^3.0.2",
+    "eslint-plugin-mocha": "^4.9.0",
     "eslint-plugin-node": "^4.2.2",
     "express": "^4.15.2",
     "istanbul": "^0.4.5",
@@ -23,12 +24,12 @@
     "mocha-eslint": "^3.0.1"
   },
   "scripts": {
-    "start": "node ./src/main/node/app.js",
-    "test": "mocha './src/test/node' --recursive",
+    "start": "node ./src/node/app.js",
+    "test": "mocha ./src/node -name *.test.js --recursive",
     "coverage": "istanbul cover _mocha './src/test/node' -- -R spec",
     "clean": "rm -rf coverage; rm -rf out",
     "refresh": "rm -rf node_modules; npm install",
-    "jsdoc": "jsdoc src/main/node/ -r"
+    "jsdoc": "jsdoc src/node/ -r"
   },
   "repository": {
     "type": "git",

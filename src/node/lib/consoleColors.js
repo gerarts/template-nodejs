@@ -1,3 +1,4 @@
+/* eslint no-console: off */
 /**
  * Created by Paul Gerarts on 2/2/2017.
  */
